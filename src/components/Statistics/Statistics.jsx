@@ -1,9 +1,9 @@
-import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 import { StatisticsItem } from './StatisticsItem';
 import { formatObject } from './unique';
 
-const Statistics = ({title, stats}) => {
+const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}

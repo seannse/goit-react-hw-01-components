@@ -18,18 +18,18 @@ export const Item = styled.li`
 `;
 
 export const Status = styled.span`
-background-color: ${({isOnline}) => {return isOnline ? "green" : "red";} };
-display: block;
-width: 20px;
-height: 20px;
-align-self: center;
-border-radius: 50%;
-margin-right: 20px;
+  background-color: ${({ isOnline }) => (isOnline ? 'green' : 'red')};
+  display: block;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border-radius: 50%;
+  margin-right: 20px;
 `;
 
 export const Title = styled.p`
-font-size: 20px;
-    color: black;
-    font-weight: 700;
-    margin-left: 25px;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  margin-left: 25px;
 `;
